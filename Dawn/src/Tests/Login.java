@@ -13,7 +13,7 @@ public class Login {
   
   @Test
   public void firstTestCase() {
-	  System.out.println("This is a sample test")
+	  System.out.println("This is a sample test");
 	  
   }
   @BeforeMethod
