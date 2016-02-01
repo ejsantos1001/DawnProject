@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="commonFunctionTests" duration-ms="63" started-at="2016-02-01T13:28:13Z" finished-at="2016-02-01T13:28:13Z">
+    <groups>
+    </groups>
+    <test name="regressionOfCommonFunctions" duration-ms="63" started-at="2016-02-01T13:28:13Z" finished-at="2016-02-01T13:28:13Z">
+      <class name="Tests.Login">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.Login@21a06946]" name="beforeMethod" is-config="true" duration-ms="15" started-at="2016-02-01T21:28:13Z" finished-at="2016-02-01T21:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:Tests.Login@21a06946]" name="f" duration-ms="14" started-at="2016-02-01T21:28:13Z" data-provider="dp" finished-at="2016-02-01T21:28:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:Tests.Login@21a06946]" name="f" duration-ms="1" started-at="2016-02-01T21:28:13Z" data-provider="dp" finished-at="2016-02-01T21:28:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.Login@21a06946]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-02-01T21:28:13Z" finished-at="2016-02-01T21:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Tests.Login@21a06946]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-02-01T21:28:13Z" finished-at="2016-02-01T21:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Tests.Login@21a06946]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-02-01T21:28:13Z" finished-at="2016-02-01T21:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="firstTestCase()[pri:0, instance:Tests.Login@21a06946]" name="firstTestCase" duration-ms="1" started-at="2016-02-01T21:28:13Z" finished-at="2016-02-01T21:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestCase -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.Login@21a06946]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-02-01T21:28:13Z" finished-at="2016-02-01T21:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Tests.Login@21a06946]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-02-01T21:28:13Z" finished-at="2016-02-01T21:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Tests.Login -->
+    </test> <!-- regressionOfCommonFunctions -->
+  </suite> <!-- commonFunctionTests -->
+</testng-results>

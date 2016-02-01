@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [commonFunctionTests]">
+  <test name="regressionOfCommonFunctions">
+    <packages>
+      <package name="Tests"/>
+    </packages>
+    <classes>
+      <class name="Tests.Login"/>
+    </classes>
+  </test> <!-- regressionOfCommonFunctions -->
+</suite> <!-- Failed suite [commonFunctionTests] -->
