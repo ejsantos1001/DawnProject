@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [commonFunctionTests]">
-  <test name="regressionOfCommonFunctions">
-    <packages>
-      <package name="Tests"/>
-    </packages>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
     <classes>
       <class name="Tests.Login"/>
     </classes>
-  </test> <!-- regressionOfCommonFunctions -->
-</suite> <!-- Failed suite [commonFunctionTests] -->
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->

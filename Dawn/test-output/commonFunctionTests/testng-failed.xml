@@ -9,4 +9,15 @@
       <class name="Tests.Login"/>
     </classes>
   </test> <!-- regressionOfCommonFunctions -->
+  <test name="regressionOfCommonFunctions(failed)">
+    <classes>
+      <class name="Tests.Login">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="firstTestCase"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Tests.Login -->
+    </classes>
+  </test> <!-- regressionOfCommonFunctions(failed) -->
 </suite> <!-- Failed suite [commonFunctionTests] -->
