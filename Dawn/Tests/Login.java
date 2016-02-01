@@ -9,6 +9,13 @@ public class Login {
   @Test(dataProvider = "dp")
   public void f(Integer n, String s) {
   }
+  
+  
+  @Test
+  public void firstTestCase() {
+	  System.out.println("This is a sample test")
+	  
+  }
   @BeforeMethod
   public void beforeMethod() {
   }
