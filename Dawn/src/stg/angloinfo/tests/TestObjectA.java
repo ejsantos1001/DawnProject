@@ -10,7 +10,6 @@ import org.testng.annotations.DataProvider;
 
 
 
-
 public class TestObjectA extends BaseTest {
 
   @Test(dataProvider ="dp")

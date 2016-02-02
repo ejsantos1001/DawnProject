@@ -1,73 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21607" started-at="2016-02-01T14:47:52Z" finished-at="2016-02-01T14:48:14Z">
+  <suite name="commonFunctionTests" duration-ms="20465" started-at="2016-02-02T14:57:56Z" finished-at="2016-02-02T14:58:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21607" started-at="2016-02-01T14:47:52Z" finished-at="2016-02-01T14:48:14Z">
-      <class name="Tests.Login">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.Login@77f03bb1]" name="beforeMethod" is-config="true" duration-ms="15" started-at="2016-02-01T22:47:52Z" finished-at="2016-02-01T22:47:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:Tests.Login@77f03bb1]" name="f" duration-ms="12" started-at="2016-02-01T22:47:52Z" data-provider="dp" finished-at="2016-02-01T22:47:52Z">
+    <test name="regressionOfCommonFunctions" duration-ms="20465" started-at="2016-02-02T14:57:56Z" finished-at="2016-02-02T14:58:16Z">
+      <class name="stg.angloinfo.tests.TestObjectA">
+        <test-method status="PASS" signature="initializeBestTest(java.lang.String, java.lang.String)[pri:0, instance:stg.angloinfo.tests.TestObjectA@61a52fbd]" name="initializeBestTest" is-config="true" duration-ms="14271" started-at="2016-02-02T22:57:56Z" finished-at="2016-02-02T22:58:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[1]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[a]]>
+                <![CDATA[http://stg.angloinfo.com/]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.Login@77f03bb1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-02-01T22:47:52Z" finished-at="2016-02-01T22:47:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:Tests.Login@77f03bb1]" name="f" duration-ms="8" started-at="2016-02-01T22:47:52Z" data-provider="dp" finished-at="2016-02-01T22:47:52Z">
+        </test-method> <!-- initializeBestTest -->
+        <test-method status="PASS" signature="TestAction(java.lang.String, java.lang.String)[pri:0, instance:stg.angloinfo.tests.TestObjectA@61a52fbd]" name="TestAction" duration-ms="6164" started-at="2016-02-02T22:58:10Z" data-provider="dp" finished-at="2016-02-02T22:58:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[2]]>
+                <![CDATA[eliazertest+5@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[b]]>
+                <![CDATA[Ai1234567]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Tests.Login@77f03bb1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-02-01T22:47:52Z" finished-at="2016-02-01T22:47:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Tests.Login@77f03bb1]" name="afterMethod" is-config="true" duration-ms="1" started-at="2016-02-01T22:47:52Z" finished-at="2016-02-01T22:47:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tests.Login@77f03bb1]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-02-01T22:47:52Z" finished-at="2016-02-01T22:47:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="firstTestCase()[pri:0, instance:Tests.Login@77f03bb1]" name="firstTestCase" duration-ms="21470" started-at="2016-02-01T22:47:52Z" finished-at="2016-02-01T22:48:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- firstTestCase -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Tests.Login@77f03bb1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-02-01T22:48:14Z" finished-at="2016-02-01T22:48:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- Tests.Login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- TestAction -->
+      </class> <!-- stg.angloinfo.tests.TestObjectA -->
+    </test> <!-- regressionOfCommonFunctions -->
+  </suite> <!-- commonFunctionTests -->
 </testng-results>

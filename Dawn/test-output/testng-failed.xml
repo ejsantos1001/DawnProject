@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test verbose="2" name="Default test">
+<suite name="Failed suite [commonFunctionTests]">
+  <parameter name="appBaseURI" value="http://stg.angloinfo.com/"/>
+  <parameter name="browserType" value="firefox"/>
+  <test name="regressionOfCommonFunctions">
+    <packages>
+      <package name="stg.angloinfo.tests"/>
+    </packages>
     <classes>
-      <class name="Tests.Login"/>
+      <class name="stg.angloinfo.tests.TestObjectA"/>
     </classes>
-  </test> <!-- Default test -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- regressionOfCommonFunctions -->
+</suite> <!-- Failed suite [commonFunctionTests] -->

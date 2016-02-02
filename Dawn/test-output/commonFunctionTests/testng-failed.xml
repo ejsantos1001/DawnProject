@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [commonFunctionTests]">
+  <parameter name="appBaseURI" value="http://stg.angloinfo.com/"/>
+  <parameter name="browserType" value="firefox"/>
   <test name="regressionOfCommonFunctions">
     <packages>
-      <package name="Tests"/>
+      <package name="stg.angloinfo.tests"/>
     </packages>
     <classes>
-      <class name="Tests.Login"/>
+      <class name="stg.angloinfo.tests.TestObjectA"/>
     </classes>
   </test> <!-- regressionOfCommonFunctions -->
-  <test name="regressionOfCommonFunctions(failed)">
-    <classes>
-      <class name="Tests.Login">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="firstTestCase"/>
-          <include name="afterMethod"/>
-        </methods>
-      </class> <!-- Tests.Login -->
-    </classes>
-  </test> <!-- regressionOfCommonFunctions(failed) -->
 </suite> <!-- Failed suite [commonFunctionTests] -->
