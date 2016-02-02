@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="commonFunctionTests">
+<parameter name="appBaseURI" value="http://stg.angloinfo.com/"/>
+<parameter name="browserType" value="firefox"/>
  <test name ="regressionOfCommonFunctions">
   <packages>
-  	<package name ="Tests"/>
+  	<package name ="stg.angloinfo.tests"/>
   </packages>
  </test>
 </suite>

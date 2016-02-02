@@ -1,12 +1,11 @@
 /**
  * 
  */
-package PageObject;
+package stg.angloinfo.pageobjects;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-
 
 /**
  * @author ejsantos
@@ -14,12 +13,17 @@ import org.openqa.selenium.support.How;
  */
 public class LandingPage {
 
+	
 	@FindBy(how = How.ID, using = "myangloDropdownToggle" )
 	private WebElement signInButton;
+	
 	
 	public void goToLoginPage () {
 		signInButton.click();
 		
 	}
+	
+
+	
 	
 }
